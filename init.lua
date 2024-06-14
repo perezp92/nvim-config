@@ -24,7 +24,7 @@ require("lazy").setup({
       require "options"
     end,
   },
-
+  { import = "lazyvim.plugins.extras.linting.eslint" },
   { import = "plugins" },
 }, lazy_config)
 
